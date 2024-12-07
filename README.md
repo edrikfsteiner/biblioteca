@@ -10,7 +10,7 @@
 ## Sistema para Bibliotecas
 
 ### Objetivos do sistema:
-- Um software para em que será possível cadastrar livros, aluguéis de livros e
+- Um software em que será possível cadastrar livros, aluguéis de livros e
   automaticamente será realizado o cadastro das transações de aluguel de livros
   em uma sistema de auditoria. O sistema tem o objetivo de proporcionar um melhor
   controle do estoque e das retiradas e devoluções dos livros.
@@ -42,6 +42,8 @@
 
 
 ![Captura de tela 2024-12-06 231139](https://github.com/user-attachments/assets/eb757a38-32f3-45d0-846a-37443f766e5d)
+
+<br>
 
 - A primeira transação de dados será no microsserviço de Aluguel que após verificar a disponibilidade de aluguel do livro, irá decrementar a
   quantidade de livros disponíveis para aluguel no microsserviço de Livros.
